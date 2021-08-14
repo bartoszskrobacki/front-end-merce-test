@@ -1,0 +1,13 @@
+<div class="comment-section">
+    <div class="header"><app-logo imgSrc="../../assets/icons/post_icon_01.png"></app-logo><img width="25px" height="25px" src="../../../../assets/icons/close_icon.png" routerLink="/"></div>
+    <div class="mainPost">
+        <app-single-post-title text={{post.title}}></app-single-post-title>
+        <app-single-post-content text={{post.body}}></app-single-post-content>
+    </div>
+    <div class="comments">
+    
+    <app-comment-section postId={{post.id}}></app-comment-section>
+    
+    </div>
+    </div>
+    

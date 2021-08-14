@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.content {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 20px 0 50px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .content{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    }
+
+@media only screen and (max-device-width: 480px){
+    .content{
+        font-size: 12px;
+        line-height: 20px;
+    }
+}

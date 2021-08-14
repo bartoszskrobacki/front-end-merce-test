@@ -1,0 +1,14 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    }
+    
+    .circle {
+        height: 96px;
+        width: 96px;
+        
+        border-radius: 50%;
+        display: inline-block;
+    }

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.overlayTitle{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 119px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1366px) {
+.overlayTitle {
+    font-size: 64px;
+    line-height: 95px;
+}
+}
+
+@media only screen and (max-device-width: 640px){
+    .overlayTitle{
+        font-size: 32px;
+        line-height: 47px;
+    }
+}

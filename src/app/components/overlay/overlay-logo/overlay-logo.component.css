@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');    
+.overlayLogo {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .overlayLogo{
+        font-size: 32px;
+        line-height: 39px;
+    }
+    }
+
+@media only screen and (max-device-width: 640px){
+    .overlayLogo{
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

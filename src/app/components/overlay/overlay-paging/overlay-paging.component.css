@@ -1,0 +1,93 @@
+.paging{
+  display: inline-flex;
+  font-size: 46px;
+  justify-content: space-around;
+}
+p {margin: 0;}
+
+.currentPost{
+font-family: Oswald;
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 50px;
+color: #C8FF46;
+
+}
+
+.numberOfPosts{
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 80px;
+}
+
+.currentPost, .numberOfPosts {
+  vertical-align: top;
+} 
+
+.left_arrow_icon {
+  height: 25px;
+  width: 25px;
+}
+
+.right_arrow_icon{
+  height: 25px;
+  width: 25px;
+}
+
+
+@media only screen and (max-width: 1366px) {
+  .paging{
+    display: inline-flex;
+    font-size: 30px;
+  }
+  .currentPost{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    color: #C8FF46;
+    
+    }
+    
+    .numberOfPosts{
+    
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 70px;
+    }
+
+  }
+  
+  @media only screen and (max-device-width: 640px){
+    .paging{
+      display: inline-flex;
+      font-size: 24px;
+      justify-content: space-between;
+      
+    }
+    .currentPost{
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+    line-height: 41px;
+      color: #C8FF46;
+      margin: 0 2px;
+      }
+      
+      .numberOfPosts{
+      
+      font-family: Oswald;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 55px;
+      }
+  }

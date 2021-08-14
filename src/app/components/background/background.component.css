@@ -1,0 +1,19 @@
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(30,30,232,1) 0%, rgba(113,34,232,0.9375) 100%);
+    
+}
+
+@media only screen and (max-device-width: 640px){
+    .background{
+        position:absolute;
+        bottom: 0px;
+        left: 0px;
+        
+    }
+}

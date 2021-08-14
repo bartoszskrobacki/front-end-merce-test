@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+.comment-section {
+    
+    position: absolute;
+    top: 3%;
+    left: 60%;
+    transform: translate(-50%, 0%);
+    width: 50%;
+    
+    background: white;
+    border-radius: 8px;
+}
+
+.header {
+    background: #041C26;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+}
+
+.mainPost{
+    margin: 56px 48px;
+}
+
+
+    
+
+    @media only screen and (max-device-width: 640px){
+        .comment-section {
+            height: 82%;
+           
+            width: 100%;
+            transform: none;
+            overflow:scroll;
+            top: 0;
+            left: 0;
+            transform: none;
+            z-index: 1;
+           
+        }
+
+        .header {
+            background: #041C26;
+            height: 15%;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            border-radius: 8px 8px 0px 0px;
+        }
+       
+    }
