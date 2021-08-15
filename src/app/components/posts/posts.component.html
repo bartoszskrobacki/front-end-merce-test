@@ -1,6 +1,6 @@
 <div  class="posts-container">
 
-    <app-single-post *ngFor="let post of posts" [post]="post" imgSrc="../../assets/icons/post_icon_01.png"></app-single-post>
+    <app-single-post *ngFor="let post of postState.postsToDisplay" [post]="post" imgSrc="../../assets/icons/post_icon_01.png"></app-single-post>
     
     </div>  
    

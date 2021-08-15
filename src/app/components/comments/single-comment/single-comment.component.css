@@ -1,0 +1,62 @@
+.singleCommentWrapper{
+    width: 100%;
+}
+
+.singleComment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 56px 48px 0px 48px;
+    position: relative;
+}
+.separator{
+    width: 10px;
+    position:absolute;
+    left: 30%;
+}
+.leftColumnComment {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    
+    text-align: right;
+}
+
+.rightColumntComment {
+    width: 360px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    
+    color: #041C26;
+}
+
+.name {
+    margin-bottom: 10px;
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+
+}
+
+.email {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: right;
+    text-decoration-line: underline;
+
+    /* purple */
+
+    color: #5522E8;
+}
+

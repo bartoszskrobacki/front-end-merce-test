@@ -7,6 +7,9 @@ import { SinglePostTitleComponent } from './single-post/single-post-title/single
 import { PostService } from 'src/app/services/post.service';
 import { SharedModule } from '../shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
+import { PostsRoutingModule } from './post-routing.module';
+import { EffectsModule } from '@ngrx/effects';
+import { PostEffects } from 'src/app/store/effects/posts.effects';
 
 
 
@@ -21,6 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
     CommonModule,
     SharedModule,
     HttpClientModule,
+    PostsRoutingModule,
+    EffectsModule.forFeature([PostEffects])
   ],
   exports: [
     PostsComponent,
