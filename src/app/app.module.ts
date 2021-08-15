@@ -16,9 +16,7 @@ import { reducers } from './store/reducers';
 import {StoreDevtoolsModule} from '@ngrx/store-devtools'
 import { FormsModule } from '@angular/forms';
 
-interface PostState {
-  postState: PostState
-}
+
 
 @NgModule({
   declarations: [
