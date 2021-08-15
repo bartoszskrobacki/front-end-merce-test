@@ -1,5 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Store } from '@ngrx/store';
 import { Post } from 'src/app/models/Post';
+import { AppState } from 'src/app/store/reducers';
+import * as PostActions from './../../../store/actions/posts.actions';
 
 @Component({
   selector: 'app-single-post',
@@ -17,9 +20,13 @@ export class SinglePostComponent implements OnInit {
   @Input() imgSrc: string = "../../../../assets/icons/upright_arrow_icon.png";
   
 
-  constructor() { }
+  constructor( private store: Store<AppState>) { }
 
   ngOnInit(): void {
+  }
+
+  checkPostDetails() {
+    this.store.dispatch(new PostActions.ChooseActualPost(this.post.id));
   }
 
 }

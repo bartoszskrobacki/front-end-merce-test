@@ -7,7 +7,7 @@
         <app-single-post-content text={{post.body}}></app-single-post-content>
     </div>
     <div class="footer">
-        <div class="Zobacz"  routerLink="/comments">Zobacz</div>
-        <div class="Arrow" routerLink="/comments"><img  src="../../../../assets/icons/upright_arrow_icon.png"></div>
+        <div class="Zobacz" (click)="checkPostDetails()"  routerLink="/comments">Zobacz</div>
+        <div class="Arrow" (click)="checkPostDetails()" routerLink="/comments"><img  src="../../../../assets/icons/upright_arrow_icon.png"></div>
     </div>
 </article>

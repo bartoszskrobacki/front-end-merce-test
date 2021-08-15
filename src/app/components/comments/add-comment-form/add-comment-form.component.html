@@ -1,1 +1,23 @@
-<p>add-comment-form works!</p>
+<div class="addCommentSection">
+    <form class="add-form" (ngSubmit)="onSubmit()">
+        <div class="nameForm">
+            <label for="name"></label>
+            <input type="text" name="name" [(ngModel)] ="name" id="name" placeholder="Name" />
+        </div>
+        <div class="emailForm">
+            <label for="email"></label>
+            <input type="email" name="email" [(ngModel)] = "email" id="email" placeholder="Email" />
+        </div>
+        <div class="commentForm">
+            <label for="comment"></label>
+            <input type="text" name="comment" [(ngModel)] = "comment" id="comment" placeholder="Comment" />
+        </div>
+        <div class="postAcceptance">
+        <div class="cancelButton" (click) = onClick() >Odrzuć</div>
+        <div class="inputButton">
+        <input type="submit" value="Wyślij" class="submitButton"/> 
+        </div>
+        </div>
+    </form>
+    </div>
+    

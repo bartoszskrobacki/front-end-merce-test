@@ -1,0 +1,48 @@
+
+.comments{
+    height: 40vh;
+    overflow-y: scroll;
+    
+}
+
+.add-commments{
+    height: 30vh;
+}
+
+.comment-section-divider{
+    background:  linear-gradient(91.62deg, #C8FF46 31.18%, #97FF46 100%);
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    height: 28px;
+    vertical-align: bottom;
+    padding: 0px 48px;
+    position: relative;
+    
+}
+
+.comment-divider-text{
+    position: absolute;
+    top:-40px;
+}
+
+.comment-divider-logo {
+    position: absolute;
+    top: -40px;
+    right: 90px;
+}
+
+.footer_comment {
+    background: linear-gradient(91.62deg, #C8FF46 31.18%, #97FF46 100%);
+    height: 80px;
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    justify-content:flex-end;
+    position: relative;
+}
+.logoPosition{
+    position: absolute;
+    top: -50px;
+    right: 90px;
+}   

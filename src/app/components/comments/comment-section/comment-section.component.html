@@ -1,1 +1,27 @@
-<p>comment-section works!</p>
+
+<div class="comment-container">
+ 
+    <div class="comment-container" *ngIf="showCommentSection">
+       <div class="comment-section-divider"><div class="comment-divider-text"> Comments</div></div>   
+     
+   <div class="comments">
+        <app-single-comment *ngFor="let comment of comments" [comment] ="comment"></app-single-comment>
+       </div>
+       <div class="footer_comment"><div class="logoPosition" (click)="toogleShowPost()"><app-logo imgSrc="../../assets/icons/add_comment_icon.png" background="#041C26" ></app-logo></div></div>
+   </div>  
+   
+   <div class="comment-container" *ngIf="!showCommentSection">
+       <div class="comment-section-divider">
+         <div class="comment-divider-text"> Add comment</div> 
+         <div class="comment-divider-logo"> 
+             <app-logo imgSrc="../../../../assets//icons/comment_icon.png" background="#041C26"></app-logo>
+         </div>
+       </div>   
+     <div class="add-comments">
+       <app-add-comment-form (onAddComment)="addComment($event)" (onCancel)="toogleShowPost()"></app-add-comment-form>
+     </div>
+   </div>
+   
+   
+   </div>
+   
