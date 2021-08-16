@@ -12,3 +12,14 @@
         border-radius: 50%;
         display: inline-block;
     }
+
+    @media only screen and (max-width: 1366px) {
+        .circle {
+            height: 64px;
+            width: 64px;
+            
+            border-radius: 50%;
+            display: inline-block;
+        }
+    
+    }

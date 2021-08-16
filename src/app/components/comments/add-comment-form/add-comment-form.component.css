@@ -3,7 +3,8 @@
     background:  linear-gradient(91.62deg, #C8FF46 31.18%, #97FF46 100%);;
     padding: 2% 5%;
     border-radius: 0 0 8px 8px;
-    width: 100%;
+   
+   
 }
 
 .nameForm, .emailForm{
@@ -64,4 +65,21 @@ font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 1366px) {
+    input {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-device-width: 640px){
+    input {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .postAcceptance{
+        padding-bottom: 10%;
+    }
 }

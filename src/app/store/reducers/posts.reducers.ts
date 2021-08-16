@@ -46,12 +46,12 @@ export function postReducer(postState: PostState = initialState, action: Action 
     case PostActions.NEXT_POST:
         return { ...postState,
               actualPostId: postState.actualPostId + 1,
-              postsToDisplay: postState.allPosts.slice(postState.actualPostId, postState.actualPostId+5)
+              postsToDisplay: postState.allPosts.slice(postState.actualPostId, postState.actualPostId+6)
             };
      case PostActions.PREVIOUS_POST:
         return { ...postState,
                 actualPostId: postState.actualPostId - 1,
-                postsToDisplay: postState.allPosts.slice(postState.actualPostId , postState.actualPostId+5)
+                postsToDisplay: postState.allPosts.slice(postState.actualPostId , postState.actualPostId+6)
                 };          
     
 

@@ -11,7 +11,7 @@
     border-radius: 8px;
 }
 
-.header {
+.header-comment {
     background: #041C26;
     height: 96px;
     display: flex;
@@ -24,7 +24,14 @@
 .mainPost{
     margin: 56px 48px;
 }
-
+@media only screen and (max-width: 1366px) {
+    .header-comment {
+        height: 64px;
+    }
+    .mainPost{
+        margin: 40px 32px;
+    }
+}
 
     
 
@@ -39,16 +46,16 @@
             left: 0;
             transform: none;
             z-index: 1;
-           
+            padding-bottom: 30px;
         }
 
-        .header {
+        .header-comment {
             background: #041C26;
-            height: 15%;
+            height: 64px;
             display: flex;
             justify-content: space-between;
-            width: 100%;
             border-radius: 8px 8px 0px 0px;
         }
+        
        
     }

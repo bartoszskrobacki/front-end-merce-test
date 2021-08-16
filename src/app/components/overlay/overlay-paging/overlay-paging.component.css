@@ -31,6 +31,7 @@ line-height: 80px;
 .left_arrow_icon {
   height: 25px;
   width: 25px;
+  
 }
 
 .right_arrow_icon{
@@ -38,6 +39,10 @@ line-height: 80px;
   width: 25px;
 }
 
+img {
+  height: 32px;
+  padding-top: 10px;
+}
 
 @media only screen and (max-width: 1366px) {
   .paging{
@@ -53,7 +58,10 @@ line-height: 80px;
     color: #C8FF46;
     
     }
-    
+    img {
+      height: 24px;
+      padding-top: 15px;
+    }
     .numberOfPosts{
     
     font-family: Oswald;
@@ -89,5 +97,9 @@ line-height: 80px;
       font-weight: 300;
       font-size: 16px;
       line-height: 55px;
+      }
+      img {
+        height: 12px;
+        padding-top: 10px;
       }
   }

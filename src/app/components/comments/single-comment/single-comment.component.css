@@ -60,3 +60,26 @@ line-height: 24px;
     color: #5522E8;
 }
 
+@media only screen and (max-width: 1366px) {
+    .name {
+        font-size: 14px;
+    }
+    .email {
+        font-size: 8px;
+    }
+    .rightColumntComment{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-device-width: 640px){
+    .name {
+        font-size: 12px;
+    }
+    .email {
+        font-size: 8px;
+    }
+    .rightColumntComment{
+        font-size: 12px;
+    }
+}

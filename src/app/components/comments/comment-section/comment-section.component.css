@@ -1,9 +1,5 @@
 
-.comments{
-    height: 40vh;
-    overflow-y: scroll;
-    
-}
+
 
 .add-commments{
     height: 30vh;
@@ -46,3 +42,29 @@
     top: -50px;
     right: 90px;
 }   
+
+@media only screen and (max-width: 1366px) {
+    .comment-section-divider{
+        height: 16px;
+    }
+   
+    .comment-divider-text{
+        font-size: 24px;
+        top:-25px;
+    }
+    .comment-divider-logo {
+        position: absolute;
+        top: -30px;
+        right: 50px;
+    }
+}
+
+@media only screen and (max-device-width: 640px){
+    .comment-divider-text{
+        font-size: 20px;
+        top:-20px;
+    }
+    .comment-divider-logo {
+        right: 10%;
+    }
+}
