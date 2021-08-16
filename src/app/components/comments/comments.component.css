@@ -21,6 +21,10 @@
     
 }
 
+img {
+    cursor: pointer;
+}
+
 .mainPost{
     margin: 56px 48px;
 }
@@ -46,7 +50,7 @@
             left: 0;
             transform: none;
             z-index: 1;
-            padding-bottom: 30px;
+            
         }
 
         .header-comment {

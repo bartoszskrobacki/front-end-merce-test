@@ -27,7 +27,7 @@ export class OverlayPagingComponent implements OnInit {
 
 
   constructor(private router:Router, private store: Store<AppState>) {
-    store.select(state => state).subscribe(x => this.postState = x.postState)
+    store.select(state => state).subscribe(x => x.postState ? this.postState = x.postState : x.postState)
    }
 
  

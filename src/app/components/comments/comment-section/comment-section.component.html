@@ -7,7 +7,7 @@
    <div class="comments">
         <app-single-comment *ngFor="let comment of comments" [comment] ="comment"></app-single-comment>
        </div>
-       <div class="footer_comment"><div class="logoPosition" (click)="toogleShowPost()"><app-logo imgSrc="../../assets/icons/add_comment_icon.png" background="#041C26" ></app-logo></div></div>
+       <div class="footer_comment"><div class="logo-position" (click)="toogleShowPost()"><app-logo imgSrc="../../assets/icons/add_comment_icon.png" background="#041C26" ></app-logo></div></div>
    </div>  
    
    <div class="comment-container" *ngIf="!showCommentSection">

@@ -4,11 +4,10 @@ import { Observable, Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class UiService {
-  private showCommentSection: boolean = false;
+  private showCommentSection: boolean = true;
   private subject = new Subject<any>();
 
   toogleShowCommentSection() : void {
-    console.log("click");
     this.showCommentSection = !this.showCommentSection;
     this.subject.next(this.showCommentSection)
   }

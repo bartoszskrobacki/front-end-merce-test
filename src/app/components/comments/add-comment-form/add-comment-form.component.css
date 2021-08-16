@@ -1,13 +1,13 @@
-.addCommentSection {
+.add-comment-section {
     
-    background:  linear-gradient(91.62deg, #C8FF46 31.18%, #97FF46 100%);;
+    background:  var(--background);
     padding: 2% 5%;
     border-radius: 0 0 8px 8px;
    
    
 }
 
-.nameForm, .emailForm{
+.name-form, .email-form{
     margin-bottom: 2%;
 }
 
@@ -16,7 +16,7 @@
     height: 6vh;
 }
 
-.commentForm{
+.comment-form{
     margin-bottom: 2%;
 }
 
@@ -29,7 +29,7 @@
 }
 
 input {
-font-family: Inter;
+font-family: var(--secondary-font);
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
@@ -39,7 +39,7 @@ text-align: left;
 padding-left: 2%;
 }
 
-.postAcceptance {
+.post-acceptance {
 display: flex;
 justify-content: space-between;
 
@@ -48,9 +48,10 @@ justify-content: space-between;
 .submitButton {
     background-color: #041C26;
     color: white;
+    cursor: pointer;
 }
 
-.inputButton {
+.input-button {
     background-color: #041C26;
     text-align: center;
     height: 100%;
@@ -59,12 +60,13 @@ justify-content: space-between;
 
 }
 
-.cancelButton{
+.cancel-button{
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 text-decoration-line: underline;
+cursor: pointer;
 }
 
 @media only screen and (max-width: 1366px) {
@@ -79,7 +81,7 @@ text-decoration-line: underline;
         font-size: 12px;
         line-height: 20px;
     }
-    .postAcceptance{
+    .post-acceptance{
         padding-bottom: 10%;
     }
 }

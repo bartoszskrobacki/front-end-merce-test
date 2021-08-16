@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 56px 48px 0px 48px;
+    padding: 28px 48px 28px 48px;
     position: relative;
 }
 .separator{
@@ -23,38 +23,38 @@
     text-align: right;
 }
 
-.rightColumntComment {
-    width: 360px;
-    font-family: Inter;
+.rightColumnComment {
+    width: 60%;
+    font-family: var(--secondary-font);
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 32px;
-    
     color: #041C26;
 }
 
 .name {
     margin-bottom: 10px;
-    font-family: Inter;
+    font-family: var(--secondary-font);
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
 line-height: 24px;
+width: 120px;
 
 }
 
 .email {
-    font-family: Inter;
+    font-family: var(--secondary-font);
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
-
+    width: 120px;
     text-align: right;
     text-decoration-line: underline;
-
+    word-wrap: break-word;
     /* purple */
 
     color: #5522E8;
@@ -67,8 +67,11 @@ line-height: 24px;
     .email {
         font-size: 8px;
     }
-    .rightColumntComment{
+    .rightColumnComment{
         font-size: 14px;
+    }
+    .singleComment {
+        padding: 24px 36px 24px 36px;
     }
 }
 
@@ -79,7 +82,10 @@ line-height: 24px;
     .email {
         font-size: 8px;
     }
-    .rightColumntComment{
+    .rightColumnComment{
         font-size: 12px;
+    }
+    .singleComment {
+        padding: 12px 28px 12px 28px;
     }
 }

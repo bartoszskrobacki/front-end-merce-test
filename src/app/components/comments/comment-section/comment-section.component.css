@@ -1,13 +1,10 @@
-
-
-
 .add-commments{
     height: 30vh;
 }
 
 .comment-section-divider{
-    background:  linear-gradient(91.62deg, #C8FF46 31.18%, #97FF46 100%);
-    font-family: Oswald;
+    background:  var(--background);
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -30,17 +27,18 @@
 }
 
 .footer_comment {
-    background: linear-gradient(91.62deg, #C8FF46 31.18%, #97FF46 100%);
+    background: var(--background);
     height: 80px;
     border-radius: 0px 0px 8px 8px;
     display: flex;
     justify-content:flex-end;
     position: relative;
 }
-.logoPosition{
+.logo-position{
     position: absolute;
     top: -50px;
     right: 90px;
+        cursor: pointer;
 }   
 
 @media only screen and (max-width: 1366px) {
@@ -57,12 +55,18 @@
         top: -30px;
         right: 50px;
     }
+    .logo-position{
+        position: absolute;
+        top: -50px;
+        right: 5%;
+    }   
 }
 
 @media only screen and (max-device-width: 640px){
     .comment-divider-text{
         font-size: 20px;
         top:-20px;
+
     }
     .comment-divider-logo {
         right: 10%;

@@ -24,7 +24,6 @@ export class CommentService {
 
   getComments(postNumber:string) : Observable<Comment[]> {
     let apiCommentUrl = this.apiUrl + postNumber + "/comments";
-    console.log(apiCommentUrl)
     return this.http.get<Comment[]>(apiCommentUrl);
   }
   addComment(comment:Comment) : Observable<Comment>{

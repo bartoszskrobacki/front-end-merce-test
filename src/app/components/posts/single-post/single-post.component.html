@@ -1,13 +1,13 @@
 <article class="post">
-    <div class="headerPost">
+    <div class="header-post">
         <app-logo imgSrc={{imgSrc}} background="var(--background)"></app-logo>
     </div>
-    <div class="mainPost">
+    <div class="main-post">
         <app-single-post-title text={{post.title}}></app-single-post-title>
         <app-single-post-content text={{post.body}}></app-single-post-content>
     </div>
     <div class="footer">
-        <div class="Zobacz" (click)="checkPostDetails()"  routerLink="/comments">Zobacz</div>
-        <div class="Arrow" (click)="checkPostDetails()" routerLink="/comments"><img  src="../../../../assets/icons/upright_arrow_icon.png"></div>
+        <div class="link-comment" (click)="checkPostDetails()"  routerLink="/comments">Zobacz</div>
+        <div class="link-comment" (click)="checkPostDetails()" routerLink="/comments"><img  src="../../../../assets/icons/upright_arrow_icon.png"></div>
     </div>
 </article>

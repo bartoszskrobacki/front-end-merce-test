@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap');
+
 
 .overlaySubTitle{
     display: inline-flex;
-    font-family: Oswald;
-    
+    font-family: var(--primary-font);
+    line-height: 48px;
     font-style: normal;
     font-size: 64px;
-    line-height: 95px;
+    
 /* identical to box height */
 
 text-transform: uppercase   ;
@@ -22,13 +22,13 @@ text-transform: uppercase   ;
 @media only screen and (max-width: 1366px) {
     .overlaySubTitle{
         font-size: 48px;
-        line-height: 71px;
+        line-height: 39px;
     }
     }
 
 @media only screen and (max-device-width: 640px){
     .overlaySubTitle{
         font-size: 24px;
-        line-height: 36px;
+        line-height: 19px;
     }
 }

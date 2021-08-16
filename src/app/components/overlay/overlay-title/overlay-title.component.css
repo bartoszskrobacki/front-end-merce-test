@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
-
 .overlayTitle{
-    font-family: Oswald;
+    font-family: var(--primary-font);
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
